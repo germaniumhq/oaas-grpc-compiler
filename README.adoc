@@ -1,0 +1,11 @@
+= oaas_grpc_compiler
+
+oaas_grpc_compiler program.
+
+== Installation
+
+
+[source,sh]
+-----------------------------------------------------------------------------
+pip install oaas_grpc_compiler
+-----------------------------------------------------------------------------
