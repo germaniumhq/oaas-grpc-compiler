@@ -14,8 +14,13 @@ setup(
     author="Bogdan Mustiata",
     author_email="bogdan.mustiata@gmail.com",
     license="BSD",
-    entry_points={"console_scripts": ["oaas_grpc_compiler = oaas_grpc_compiler.mainapp:main"]},
+    entry_points={
+        "console_scripts": ["oaas-grpc-compiler = oaas_grpc_compiler.mainapp:main"]
+    },
     install_requires=[],
     packages=packages,
-    package_data={"": ["*.txt", "*.rst"], "arst": ["py.typed"],},
+    package_data={
+        "": ["*.txt", "*.rst"],
+        "oaas_grpc_compiler": ["py.typed"],
+    },
 )

@@ -10,3 +10,4 @@ __pycache__
 *.egg-info
 /.vscode
 /README.pdf
+*.orig
